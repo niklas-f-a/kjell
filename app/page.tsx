@@ -1,10 +1,10 @@
-'use client'
-import { Button } from "@/components/ui/button";
+'use client';
+import { Button } from '@/components/ui/button';
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Button onClick={() => console.log('hek')}>hej</Button>
-    </main>
-  );
+	return (
+		<main className='flex flex-col p-24 bg-red-500'>
+			<Button onClick={() => console.log('hek')}>hej</Button>
+		</main>
+	);
 }
